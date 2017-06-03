@@ -1,0 +1,4 @@
+name: BossbarCompass
+main: org.inventivetalent.bossbarcompass.BossbarCompass
+author: inventivetalent
+version: ${project.version}
