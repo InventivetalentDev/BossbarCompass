@@ -47,7 +47,7 @@ public class BossbarCompass extends JavaPlugin implements Listener {
 		}
 
 		String s = "";
-		for (int i = (int) player.getLocation().getYaw() - 16; i < ((int) player.getLocation().getYaw()) + 16; i++) {
+		for (int i = (int) Math.abs(player.getLocation().getYaw()) - 16; i < ((int) Math.abs(player.getLocation().getYaw())) + 16; i++) {
 			if (i == 0) {
 				s += "S";
 			} else if (i == 45) {
